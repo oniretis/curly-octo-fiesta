@@ -129,8 +129,18 @@ input[type="number"] {
   border-right: 5px solid #2ecc71;
 }
 
+.list li.plus:hover {
+  border-right: 15px solid #2ecc71;
+  transition: cubic-bezier(0.075, 0.82, 0.165, 1) 0.5;
+}
+
 .list li.minus {
   border-right: 5px solid #c0392b;
+}
+
+.list li.minus:hover {
+  border-right: 15px solid #c0392b;
+  transition: cubic-bezier(0.075, 0.82, 0.165, 1) 0.5;
 }
 
 .delete-btn {
